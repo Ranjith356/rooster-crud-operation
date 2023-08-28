@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="/style.css">
+    <title>Rooster market</title>
+</head>
+
+<body>
+    <div class="card">
+        <header class="card-header">
+            <p class="card-header-title">
+                Rooster market
+            </p>
+        </header>
+    </div>
+    <div class="container">
+        <form id="myform">
+            <!-- rooster name -->
+            <div class="field">
+                <label class="label">Rooster name</label>
+                <div class="control">
+                    <input id="firstname" class="input" type="text" placeholder="Enter your Rooster name">
+                </div>
+            </div>
+            <!-- name field -->
+            <div class="field">
+                <label class="label">Your name</label>
+                <div class="control">
+                    <input id="secountname" class="input" type="text" placeholder="Enter your name">
+                </div>
+            </div>
+            <!-- address block -->
+            <div class="contro">
+                <label class="label">Your address</label>
+                <textarea id="address" class="textarea" placeholder="Normal textarea"></textarea>
+            </div>
+            <br>
+            <!-- photo uplode -->
+            <div class="file is-info has-name">
+                <label class="file-label">
+                    <input id="photo" class="file-input"  type="file" name="resume">
+                    <span class="file-cta">
+                        <span class="file-icon">
+                            <i class="fas fa-upload"></i>
+                        </span>
+                        <span class="file-label">
+                            Info file…
+                        </span>
+                    </span>
+                    <span class="file-name">
+                        Rooster photo
+                    </span>
+                </label>
+            </div>
+            <br>
+            <div>
+                <input type="submit" id="submission" class="button is-link">
+                    <!-- submit -->
+                <!-- </button> -->
+                <button type="reset" class="button is-danger">
+                   reset
+                </button>
+            </div>
+        </form>
+    </div>
+    <br>
+    <table id="table">
+        <tr>
+            <th>chickenname</th>
+            <th>ownername</th>
+            <th>address</th>
+            <th>image</th>
+        </tr>
+    </table>
+    <script src="/index.js"></script>
+    
+</body>
+
+</html>
